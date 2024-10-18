@@ -15,9 +15,9 @@
         public ItemService() {
             this.products = new ArrayList<>();
             // Initialize with sample products
-            products.add(new ProductEntity("Maleta", "Electrónica", 100.000, 50));
-            products.add(new ProductEntity("Computador", "Muebles", 100.000, 30));
-            products.add(new ProductEntity("Cargador", "Tecnología", 100.000, 15));
+            products.add(new ProductEntity("Telefono", "Smartfone", 1.790.000, 50));
+            products.add(new ProductEntity("Mesa", "Muebles", 175.000, 20));
+            products.add(new ProductEntity("Adaptador TIPO C", "Tecnología", 25.000, 15));
         }
 
         public List<ProductEntity> getAllItems() {
